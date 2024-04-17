@@ -17,7 +17,9 @@ export default function HomeScreen({ navigation }) {
                 <TextInput style={styles.tInput} onChangeText={onChangeText} value={text} placeholder="test" />
                 <Text>Password</Text>
                 <TextInput style={styles.tInput} onChangeText={onChangeText} value={text} placeholder="test" />
-                <Button title="Bite!" onPress={() => navigation.navigate("Diff")}/>
+                <Button title="Bite!" onPress={() => navigation.navigate("Diff")} />
+
+                <Button title="Register" onPress={() => navigation.navigate("Register")} />
               </View>
         </View>
       

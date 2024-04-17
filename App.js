@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
 import GameScreen from './screens/GameScreen';
 import DifficultyScreen from './screens/DifficultyScreen';
+import RegisterScreen from './screens/RegisterScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,9 +14,11 @@ export default function App() {
  
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
-          <Stack.Screen name="Home" component={HomeScreen} />
+              <Stack.Screen name="Home" component={HomeScreen} />
+              <Stack.Screen name="Register" component={RegisterScreen} />
          <Stack.Screen name="Diff" component={DifficultyScreen} />
-          <Stack.Screen name="Game" component={GameScreen}/>
+              <Stack.Screen name="Game" component={GameScreen} />
+          
          </Stack.Navigator>
 
      

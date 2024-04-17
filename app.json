@@ -15,16 +15,22 @@
       "**/*"
     ],
     "ios": {
+      "googleServicesFile": "./GoogleService-info.plist",
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vlgames.quizbites"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+     
+    ]
   }
 }

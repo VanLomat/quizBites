@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "976509004455",
+    "project_id": "quizbites-e86b9",
+    "storage_bucket": "quizbites-e86b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976509004455:android:0fd1ebce9e7fc8107b0982",
+        "android_client_info": {
+          "package_name": "com.vlgames.quizbites"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC13SF8oePAmD9Sa9wHvO6PqJ1u2rX_7uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
