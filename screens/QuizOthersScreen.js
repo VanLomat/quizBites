@@ -64,9 +64,10 @@ export default function QuizOthersScreen({ navigation }) {
     //}
     const uploadQuestiontoDb = async () => {
         try {
+
             if (question && hint) {
                 if (correctAnswer && answer2 && answer3 && answer4) {
-                    addDoc(collection(db, "qbDB_GameQuestions"), {
+                    addDoc(collection(db, "qb_QuizItems"), {
                             Question: question,
                             Hint: hint,
                             Answer1: correctAnswer,

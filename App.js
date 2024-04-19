@@ -8,8 +8,13 @@ import QuizOthersScreen from './screens/QuizOthersScreen';
 import DifficultyScreen from './screens/DifficultyScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import GameScreen from './screens/GameScreen';
+import * as SplashScreen from 'expo-splash-screen';
 
 const Stack = createNativeStackNavigator();
+
+SplashScreen.preventAutoHideAsync();
+
+setTimeout(SplashScreen.hideAsync, 3000);
 
 export default function App() {
   return (
