@@ -26,13 +26,16 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.vlgames.quizbites",
-        "versionCode": 1123
+      "versionCode": 1123
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-     
-    ]
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "21aa5c15-0aac-4b5a-b02b-7f2f902d3250"
+      }
+    }
   }
 }
